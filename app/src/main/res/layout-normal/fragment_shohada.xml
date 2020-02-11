@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e2cd76">
+    <LinearLayout
+        android:id="@+id/panelSearch"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/search_bg"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:maxLines="1"
+            android:lines="1"
+            android:layout_gravity="start"
+            android:id="@+id/act_3_editSearch"
+            android:textColor="#6c602d"
+            android:maxLength="30"
+            android:hint="نام شهید مورد نظر خود را وارد کنید." />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:tint="#e88c713b"
+            android:layout_gravity="start"
+            android:src="@drawable/search_icon"
+            android:id="@+id/act_3_picSearch"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_below="@id/panelSearch"
+        android:paddingTop="10dp"
+        android:id="@+id/act_3_recycler"
+        android:padding="9dp">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

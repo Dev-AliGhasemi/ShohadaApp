@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:background="@drawable/header">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/header_navigation"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:src="@drawable/logo" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/left_border"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:src="@drawable/left_border"
+            android:scaleType="fitEnd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAlignment="inherit"
+            android:layout_weight="4"
+            android:textColor="#ff0000"
+            android:textSize="15sp"
+            android:text="زندگی زیباست اما شهادت زیباتر"
+            android:id="@+id/text_navigation"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/right_border"
+            android:src="@drawable/right_border"
+            android:scaleType="fitStart"/>
+    </LinearLayout>
+</LinearLayout>

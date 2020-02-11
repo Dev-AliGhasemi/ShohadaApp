@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/act_2_scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <android.support.v4.view.ViewPager
+            android:layout_marginTop="15dp"
+            android:id="@+id/act_2_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sim"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:id="@+id/act_2_title_sokhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="سخنان زیبا"
+            android:textSize="20sp"
+            android:paddingStart="4dp"
+            android:textColor="#363434"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_sokhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7b6a560"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sim"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:id="@+id/act_2_title_nava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="نواهای مذهبی"
+            android:textSize="20sp"
+            android:paddingStart="4dp"
+            android:textColor="#363434"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tree"/>
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbarSize="0dp">
+
+                <LinearLayout
+                    android:id="@+id/act_2_scroll_nava"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:text="                                "/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_nava"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/motie" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/other" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_nava"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:src="@drawable/other" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:src="@drawable/fatemi" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_nava"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/other" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/other"/>
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_nava"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/karimi" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/mirdamad" />
+
+                        <Button
+                            android:id="@+id/act_2_btnPlay8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/btn_form_play"
+                            android:onClick="click"
+                            android:text="پخش"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sim"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:id="@+id/act_2_title_hadis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="احادیث امامان"
+            android:layout_marginBottom="3dp"
+            android:textSize="@dimen/size_font_title_mainpage"
+            android:paddingStart="4dp"
+            android:textColor="#363434"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e7b6a560"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/act_2_title_hadis_imam"
+                android:textColor="#dbd61d1d"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="9dp"/>
+
+            <TextView
+                android:id="@+id/act_2_text_hadis_imam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="9dp"
+                android:textAlignment="inherit"
+                android:textColor="#4e3718"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

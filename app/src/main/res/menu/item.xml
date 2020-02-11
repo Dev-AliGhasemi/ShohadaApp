@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+    <item android:title="خانه" android:icon="@drawable/home" android:id="@+id/item_khone"></item>
+    <item android:title="علاقه مندی" android:icon="@drawable/favorite" android:id="@+id/item_alagheh"/>
+    </group>
+    <!--<group-->
+        <!--android:checkableBehavior="none">-->
+        <!--<item android:title=" " />-->
+        <!--<item android:title=" " />-->
+        <!--<item android:title=" " />-->
+        <!--<item android:title=" " />-->
+    <!--</group>-->
+    <group android:checkableBehavior="none">
+        <item android:title="امکانات و پشتیبانی">
+            <menu>
+            <item android:title="اشتراک گذاری" android:icon="@drawable/share" android:id="@+id/item_eshtrak"/>
+            <item android:title="امتیاز به برنامه" android:icon="@drawable/star" android:id="@+id/item_emtiaz"/>
+            <item android:title="درباره ما" android:icon="@drawable/about_us" android:id="@+id/item_darbreh"/>
+            <item android:title="خروج" android:icon="@drawable/exit" android:id="@+id/item_khorog"/>
+        </menu>
+        </item>
+    </group>
+
+</menu>

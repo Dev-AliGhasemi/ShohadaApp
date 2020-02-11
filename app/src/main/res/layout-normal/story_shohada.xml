@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    android:layout_gravity="start"
+        android:layout_height="match_parent"
+        android:background="#e7e2cd76"
+        android:padding="9dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_4_textTitle"
+        android:textColor="#ecce1616"
+        android:layout_gravity="start"
+        android:text="مهدی زین الدین"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/act_4_textStory"
+        android:layout_gravity="start"
+        android:text=""
+        android:textSize="18sp"
+        android:scrollbars="vertical"
+        android:padding="9dp"/>
+    </LinearLayout>

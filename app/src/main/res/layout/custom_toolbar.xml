@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e7b6a562"
+    android:layout_gravity="start"
+    android:elevation="5dp">
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="match_parent"
+    android:src="@drawable/menu"
+    android:padding="10dp"
+    android:layout_gravity="right"
+    android:id="@+id/toogle"
+    android:background="@drawable/toggle_ripple"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:padding="12dp"
+        android:scaleType="fitEnd" />
+
+</android.support.v7.widget.Toolbar>

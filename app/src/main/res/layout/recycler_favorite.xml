@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imageFavorite"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight=".25"
+            android:scaleType="fitStart"
+            android:src="@drawable/bookmark"
+            android:tint="#b9371d" />
+
+        <TextView
+            android:id="@+id/text_title_name_shahid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.75"
+            android:gravity="center|right"
+            android:text="dfdfdfdfdfdfdfddfdfdf"
+            android:textColor="#d25406"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#ccb57c"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </LinearLayout>
+</LinearLayout>

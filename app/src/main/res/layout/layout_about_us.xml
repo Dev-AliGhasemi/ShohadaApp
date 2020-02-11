@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="top|center"
+                android:src="@drawable/in_the_name"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="درباره نرم افزار"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="inherit"
+            android:textColor="#000000"
+            android:id="@+id/text_title_about"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="inherit"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:text="نرم افزار گلزار شهدا نگاهی است به زندگی شهدای شهر مقدس قم ، از تولد تا شهادت . در این نسخه نرم افزار به بیان مطالبی مختصر و زیبا پیرامون زندگی آنها بسنده نمودیم و در تلاشیم با عنایت حق تعالی همواره بر غنای محتوا بیافزاییم ."
+            android:textColor="#000000"
+            android:id="@+id/text_text_about"/>
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="درباره ما"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/text_title_aboutus"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="
+این نرم افزار اولین نرم افزار تولید شده گروه تاراز می باشد ،
+امیدواریم مورد پسند شما قرار گرفته باشد."
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="inherit"
+            android:textColor="#000000"
+            android:id="@+id/text_text_aboutus"/>
+
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="خدا قوت"
+            android:textColor="#fff"
+            android:background="@drawable/btn_confirm_bg"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center|bottom"
+            android:id="@+id/btn_confirm"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

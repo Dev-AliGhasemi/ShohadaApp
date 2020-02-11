@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_splash">20dp</dimen>
+    <dimen name="width_menu_navigataion">250dp</dimen>
+    <dimen name="size_font_title_mainpage">20sp</dimen>
+    <dimen name="cardview_sokhan_elevation">15dp</dimen>
+    <dimen name="cardview_sokhan_corner">3dp</dimen>
+</resources>
